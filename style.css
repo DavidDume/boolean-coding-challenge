@@ -1,0 +1,98 @@
+body {
+    background-image: url("/imgs/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+p {
+    margin:0;
+}
+
+.charge-bar {
+    height: 25px;
+    border-radius: 4px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgba(0, 0, 0, 0.6);
+    color: white;
+    width: 1000px;
+    height: 700px;
+}
+
+
+.logo {
+    text-align: center;
+}
+
+.logo h1 {
+    margin: 0;
+    color: #00DD00;
+    font-size: 40px;
+}
+
+.logo img {
+    width: 300px;
+}
+
+
+.nav {
+    background-color: #00DD00;
+    width: 700px;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+
+.content {
+    width: 700px;
+}
+
+.scooter {
+    margin-top: 30px;
+}
+
+.scooter-name {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+
+.medium-charge {
+    background-color: orange;
+    width: 250px;
+}
+
+.high-charge {
+    background-color: green;
+    width: 450px;
+}
+
+.low-charge {
+    background-color: red;
+    width: 150px;
+}
+
